@@ -1,5 +1,22 @@
-<h1 align="center">Hi 👋, I'm Sinan</h1>
-<h5 align="center">I am constantly trying to improve myself on the computer that I started using at a young age and I try to do everything I can to stay up to date. I would like to state that I am extremely devoted and enthusiastic about being effective and fast in business life and that I want to take on the responsibility required by the position with curiosity and enthusiasm. I am aware that willing, attentive, and careful work will definitely result in success. For this reason, I have no doubt that I can contribute to the places I work with my skills and work discipline. I worked in many areas of the IT industry and finally, I decided to continue my life as a software developer. I am always very eager to learn more in this field. And I'm always happy when I work in software-related work. The IT industry has become an important part of my life. As I work in many different jobs, I do not hesitate to take responsibility for teamwork and task management. For this reason, I do not think that I will have any adaptation problems when I start a new job. I learn fast. Learning as many programming languages as possible is one of my future plans.</h5>
+<h3 align="center">
+  Welcome to Sinan Sarıkaya's profile!
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
+</h3>
+<p align="center">
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?lines=Full-stack%20web%20developer;Always%20learning%20new%20things&font=Fira%20Code&center=true&width=440&height=45&color=f75c7e&vCenter=true&size=22&pause=1000"></a>
+</p>
+
+
+
+<!-- https://github.com/anuraghazra/github-readme-stats -->
+<details> 
+  <summary>👨🏼‍💻 About Me</summary>
+    <h5 align="center">I am constantly trying to improve myself on the computer that I started using at a young age and I try to do everything I can to stay up to date. I would like to state that I am extremely devoted and enthusiastic about being effective and fast in business life and that I want to take on the responsibility required by the position with curiosity and enthusiasm. I am aware that willing, attentive, and careful work will definitely result in success. For this reason, I have no doubt that I can contribute to the places I work with my skills and work discipline. I worked in many areas of the IT industry and finally, I decided to continue my life as a software developer. I am always very eager to learn more in this field. And I'm always happy when I work in software-related work. The IT industry has become an important part of my life. As I work in many different jobs, I do not hesitate to take responsibility for teamwork and task management. For this reason, I do not think that I will have any adaptation problems when I start a new job. I learn fast. Learning as many programming languages as possible is one of my future plans.</h5>
+
+</details>
+
+
+
 
 
 <h3 align="left">Connect with me:</h3>
