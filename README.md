@@ -34,10 +34,11 @@
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sinansarikaya" alt="sinansarikaya" /></a> </p>
 
 
+<div style="width: 100px;">
+  <img src="https://github-readme-stats.vercel.app/api?username=sinansarikaya&show_icons=true&locale=en" alt="sinansarikaya" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sinansarikaya&" alt="sinansarikaya" />
+</div>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api?username=sinansarikaya&show_icons=true&locale=en" alt="sinansarikaya" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sinansarikaya&" alt="sinansarikaya" /></p>
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=sinansarikaya&show_icons=true&locale=en&layout=compact" alt="sinansarikaya" /></p>
 
 <p> <img src="https://komarev.com/ghpvc/?username=sinansarikaya&label=Profile%20views&color=0e75b6&style=flat" alt="sinansarikaya" /> </p>
