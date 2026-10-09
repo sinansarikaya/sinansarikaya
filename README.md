@@ -60,7 +60,7 @@ Customizing fastfetch and terminal colors means hand-editing config files; TermF
 
 **Product & web:** TypeScript, React, Next.js, Java, Spring Boot, Python, PostgreSQL  
 **Shipping & operations:** Linux, Docker, CI/CD, Cloudflare, monitoring and observability  
-**Current interests:** developer tools, AI-assisted development and practical agent workflows
+**Current interests:** developer tools, browser extensions and reliable software delivery
 
 ## Let's connect
 
