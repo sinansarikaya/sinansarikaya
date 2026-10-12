@@ -5,10 +5,11 @@
 </p>
 
 <h1 align="center">Sinan Sarıkaya</h1>
-<p align="center"><strong>Full-stack developer & product builder</strong> · Stavanger, Norway</p>
-<p align="center">I build software from idea to production.</p>
+<p align="center"><strong>Founder & Full Stack Software Engineer</strong> · Stavanger, Norway</p>
+<p align="center">Building software from idea to production at <a href="https://sinansarikaya.dev/business"><strong>SARIKAYA IT-FIRMA</strong></a></p>
 <p align="center">
   <a href="https://sinansarikaya.dev">Website</a> ·
+  <a href="https://sinansarikaya.dev/business">Business</a> ·
   <a href="https://sinansarikaya.dev/en/projects">Projects</a> ·
   <a href="https://sinansarikaya.dev/en/now">Now</a> ·
   <a href="https://www.linkedin.com/in/sinansarikaya/">LinkedIn</a> ·
@@ -17,7 +18,7 @@
 
 ---
 
-I design, build and run web applications, SaaS products, APIs and developer tools. My work spans the interface, backend and infrastructure, with an emphasis on clear architecture and software that keeps working after launch.
+I design, build and operate web applications, SaaS products, APIs and developer tools across the entire stack. My software and product work runs through **[SARIKAYA IT-FIRMA](https://sinansarikaya.dev/business)**, an independent Norwegian software studio based in Stavanger (Org. nr. **929 019 202**). My work spans the interface, backend and infrastructure, with an emphasis on clear architecture, reliability and software that keeps working after launch.
 
 ## Selected work
 
