@@ -1,72 +1,96 @@
 <p align="center">
   <a href="https://sinansarikaya.dev">
-    <img src="https://sinansarikaya.dev/logos/logo-icon-transparent-512.png" width="112" alt="Sinan Sarıkaya wolf logo">
+    <img src="https://sinansarikaya.dev/logos/logo-icon-transparent-512.png" width="96" alt="Sinan Sarikaya logo">
   </a>
 </p>
 
-<h1 align="center">Sinan Sarıkaya</h1>
+<h1 align="center">Sinan Sarikaya</h1>
 <p align="center"><strong>Founder & Full Stack Software Engineer</strong> · Stavanger, Norway</p>
-<p align="center">Building software from idea to production at <a href="https://sinansarikaya.dev/business"><strong>SARIKAYA IT-FIRMA</strong></a></p>
+<p align="center">Web applications, SaaS products and developer tools — from interface to infrastructure.</p>
 <p align="center">
-  <a href="https://sinansarikaya.dev">Website</a> ·
-  <a href="https://sinansarikaya.dev/business">Business</a> ·
-  <a href="https://sinansarikaya.dev/en/projects">Projects</a> ·
-  <a href="https://sinansarikaya.dev/en/now">Now</a> ·
-  <a href="https://www.linkedin.com/in/sinansarikaya/">LinkedIn</a> ·
+  <a href="https://sinansarikaya.dev"><strong>Portfolio & Engineering Notes</strong></a> ·
+  <a href="https://www.linkedin.com/in/sinansarykaya/">LinkedIn</a> ·
   <a href="mailto:me@sinansarikaya.dev">Email</a>
 </p>
 
----
+I build and run software through **[SARIKAYA IT-FIRMA](https://sinansarikaya.dev/business)**, my Norwegian sole proprietorship. I work across frontend, backend, databases and deployment, with a background in computer repair, networks and Linux administration.
 
-I design, build and operate web applications, SaaS products, APIs and developer tools across the entire stack. My software and product work runs through **[SARIKAYA IT-FIRMA](https://sinansarikaya.dev/business)**, an independent Norwegian software studio based in Stavanger (Org. nr. **929 019 202**). My work spans the interface, backend and infrastructure, with an emphasis on clear architecture, reliability and software that keeps working after launch.
+**Open to full-stack software engineering roles in Norway and with remote teams.**
 
-## Selected work
+## What I'm working on
 
-### [ViewGrid](https://viewgrid.sinansarikaya.dev/) — responsive testing in one tab
+- **CastPost:** developing a social media management SaaS with Next.js, TypeScript, PostgreSQL and Prisma.
+- **TermFetch Studio:** rewriting the published Linux tool in Rust and Ratatui, with live configuration previews. Windows, macOS, broader Linux support and package-manager distribution are planned.
+- **ViewGrid and ImaginePalette:** building tools that help developers test layouts and work with color and CSS.
 
-Checking a layout on phone, tablet and desktop usually means resizing one window over and over; ViewGrid shows all of those viewports side by side and keeps scroll, clicks and form input in sync.
+## Selected projects
 
-<p align="center">
-  <a href="https://viewgrid.sinansarikaya.dev/">
-    <img src="assets/viewgrid-workspace.png" width="760" alt="ViewGrid workspace showing a site in phone, tablet, laptop and desktop viewports with the responsive issues panel open">
-  </a>
-</p>
+### [CastPost](https://castpost.app) · In development
 
-- **What I did:** designed and built the extension, its product site and the release pipeline for Chrome and Firefox.
-- **Technical decision:** the Firefox build stays on Manifest V2, because Firefox MV3 cannot relax framing headers. Framing exceptions apply only to verified ViewGrid workspace tabs, so normal browsing keeps its protections.
-- **Quality:** CI runs unit tests and real-browser extension flows in Chromium and Firefox with Playwright.
-- **Stack:** TypeScript, Vite, WebExtensions, Playwright
+A social media management workspace for planning and publishing content to connected accounts. Initial development focuses on Instagram, Facebook and Threads. I handle the product, frontend, backend and deployment.
 
-[Source](https://github.com/sinansarikaya/viewgrid) · [Website](https://viewgrid.sinansarikaya.dev/) · [Chrome Web Store](https://chromewebstore.google.com/detail/viewgrid-%E2%80%94-responsive-vie/hmlhooeamfmhdeichnghcklahfgimgef) · [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/viewgrid-responsive-viewer/)
+[![CastPost product website and illustrated content workflow](assets/castpost.png)](https://castpost.app)
 
-### [CastPost](https://castpost.app) — social media operations SaaS · *in development*
+**Stack:** Next.js, TypeScript, PostgreSQL, Prisma<br>
+[Product website](https://castpost.app) · Source currently private
 
-Creators and small teams juggle a separate tool for every network; CastPost plans, schedules and publishes to connected accounts from one dashboard, starting with Instagram, Facebook and Threads.
+### [ViewGrid](https://viewgrid.sinansarikaya.dev) · Published for Chrome and Firefox
 
-- **What I do:** product design, full-stack development and infrastructure.
-- **Technical decision:** a Turborepo monorepo (Next.js, PostgreSQL, Prisma) with shared packages for the database, validation and types; the post scheduler is covered by unit and database integration tests.
-- The source code is private. [Product site](https://castpost.app) · [Project notes](https://sinansarikaya.dev/en/projects/castpost)
+A browser extension that displays phone, tablet and desktop layouts side by side. Scrolling, clicks and form input stay synchronized across viewports. Includes local SEO and accessibility checks.
 
-### [TermFetch Studio](https://github.com/sinansarikaya/termfetch-studio) — terminal theme manager for Linux
+[![ViewGrid workspace with synchronized phone, tablet and desktop viewports](assets/viewgrid-workspace.png)](https://viewgrid.sinansarikaya.dev)
 
-Customizing fastfetch and terminal colors means hand-editing config files; TermFetch Studio does it through an interactive menu with themes, presets and logos.
+**Stack:** TypeScript, Vite, WebExtensions, Playwright<br>
+[Source](https://github.com/sinansarikaya/viewgrid) · [Chrome Web Store](https://chromewebstore.google.com/detail/viewgrid-%E2%80%94-responsive-vie/hmlhooeamfmhdeichnghcklahfgimgef) · [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/viewgrid-responsive-viewer/)
 
-- **What I did:** wrote the tool, its themes, presets and documentation.
-- **Technical decision:** a single Bash installer that backs up the current configuration before every change, so any customization can be rolled back.
-- **Stack:** Bash, fastfetch, Nerd Fonts
+### [ImaginePalette](https://imaginepalette.com) · Live
 
-[Source](https://github.com/sinansarikaya/termfetch-studio)
+A collection of tools for color palettes and CSS, developed from my earlier JavaScript Colors Palette project. It includes palette generation, design tokens, contrast checks, gradients, shadows and filter previews.
 
-## What I work with
+[![ImaginePalette Design Token Studio showing tonal scales and contrast values](assets/imaginepalette.png)](https://imaginepalette.com)
 
-**Product & web:** TypeScript, React, Next.js, Java, Spring Boot, Python, PostgreSQL  
-**Shipping & operations:** Linux, Docker, CI/CD, Cloudflare, monitoring and observability  
-**Current interests:** developer tools, browser extensions and reliable software delivery
+**Stack:** JavaScript, SCSS, Vite<br>
+[Live application](https://imaginepalette.com) · Source currently private
 
-## Let's connect
+### [Afro Hairstyling](https://afrohairstyling.com) · Live
 
-I'm based in Stavanger and open to software engineering opportunities in Norway and with remote teams. I also take on selected development work through **[SARIKAYA IT-FIRMA](https://sinansarikaya.dev/en/business)**, my Norwegian sole proprietorship (org. no. **929 019 202**).
+A multilingual salon website and e-commerce application for Afro Hairstyling in Sandnes. I developed service and gallery pages, product shopping, order tracking and links to Timma appointment booking.
 
-Have a product or technical problem worth discussing? **[Get in touch](https://sinansarikaya.dev/en/contact)** or email **[me@sinansarikaya.dev](mailto:me@sinansarikaya.dev)**.
+[![Afro Hairstyling salon website homepage](assets/afro-hairstyling.png)](https://afrohairstyling.com)
 
-<sub>Website available in <a href="https://sinansarikaya.dev">English</a>, <a href="https://sinansarikaya.dev/tr">Türkçe</a> and <a href="https://sinansarikaya.dev/nb">Norsk</a>.</sub>
+**Stack:** Next.js, TypeScript, Django, Django REST Framework<br>
+[Live website](https://afrohairstyling.com) · Source private
+
+### [TermFetch Studio](https://github.com/sinansarikaya/termfetch-studio) · Rust rewrite in development
+
+An interactive tool for customizing fastfetch and terminal themes. The published version runs on Linux with Bash. I'm rebuilding the interface in Rust and Ratatui with themes, presets, logos and live previews.
+
+[![TermFetch Studio Rust and Ratatui development preview with sample system data](assets/termfetch-studio-v2.png)](https://github.com/sinansarikaya/termfetch-studio)
+
+*Development preview of the Rust rewrite with sample data.* Windows, macOS, broader Linux support and package-manager distribution are development goals.
+
+**Stack:** Bash, fastfetch, Rust, Ratatui<br>
+[Published Linux source](https://github.com/sinansarikaya/termfetch-studio)
+
+## Experience and infrastructure
+
+During my **February–September 2026 internship at [Outfront AS](https://outfront.no/om-oss/)**, I contributed to completing **Logic Living**, a platform built with Next.js, Spring Boot and PostgreSQL, including WordPress/WooCommerce and Cloudflare Stream integrations.
+
+I also set up a new server, migrated websites and handled server administration, security measures, troubleshooting and maintenance. My own projects involve Linux servers, Docker deployments and ongoing application operations.
+
+## Technologies
+
+| Area | Tools I use |
+| --- | --- |
+| Frontend | TypeScript, JavaScript, React, Next.js, HTML, CSS, PostCSS |
+| Backend | Java, Spring Boot, Python, Django, NestJS, REST APIs |
+| Data | PostgreSQL, Prisma, MySQL |
+| Infrastructure | Linux, Docker, GitHub Actions, Cloudflare, Dokploy |
+| Developer tools | Rust, Ratatui, WebExtensions, Vite, Playwright |
+
+## Get in touch
+
+[**sinansarikaya.dev**](https://sinansarikaya.dev) — projects, technical background and engineering notes.<br>
+[**me@sinansarikaya.dev**](mailto:me@sinansarikaya.dev) · [LinkedIn](https://www.linkedin.com/in/sinansarykaya/)
+
+<sub>Portfolio available in <a href="https://sinansarikaya.dev">English</a>, <a href="https://sinansarikaya.dev/tr">Türkçe</a> and <a href="https://sinansarikaya.dev/nb">Norsk</a>.</sub>
